@@ -1,0 +1,43 @@
+    /* Global css  */
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color:#AAB1BD;
+
+}
+
+body {
+    background: #1F1D2B;
+    color: #AAB1BD;
+}
+
+/* Navagation bar finished */
+.nav-bar {
+    background: #515573;    
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 17.5em;
+    align-content: center;
+    /* add effects afterwards */
+    
+}
+
+
+.nav-title {
+    margin-top: 50%;
+}
+
+a {
+    display: block;
+    padding: 1em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:hover {
+    background: red;
+}
